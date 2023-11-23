@@ -145,7 +145,7 @@ def excersice_diet(bw):
 
 
                      
-                person()
+               
 
 
     if (bw == "Healthy"):
@@ -180,14 +180,15 @@ def excersice_diet(bw):
                 print('\n') 
                 print("leg      excersise each excersise 15x3 reps :", selected_elements_array7)
                 print('\n') 
+                
     
                 
                      
-                person()     
+        
                 
     if (bw == "overweight"):
         if(v=='y'or v=='Y'):
-                print("""Eating nutritious foods that are high in calories is a good way to gain weight""")
+                print("""Eating nutritious foods and concentrate on fat less (carbless food) is a good way to loss weight""")
                 
                 def select_elements(array):
                     return random.sample(array, 4)
